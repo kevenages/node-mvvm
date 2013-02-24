@@ -8,3 +8,12 @@ Dependancies
 
 * Express
 * MongoDB
+
+TODO
+------
+
+Implement Auth as such:
+
+```
+app.put('/:model/:id', 'Auth.checkAuth', database.update);
+```
